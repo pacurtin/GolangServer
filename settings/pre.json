@@ -1,5 +1,5 @@
 {
-  "PrivateKeyPath": "/home/vagrant/go/src/api.jwt.auth/settings/keys/private_key",
-  "PublicKeyPath": "/home/vagrant/go/src/api.jwt.auth/settings/keys/public_key.pub",
+  "PrivateKeyPath": "/Users/padraig/go/src/github.com/pacurtin/GolangServer/settings/keys/private_key",
+  "PublicKeyPath": "/Users/padraig/go/src/github.com/pacurtin/GolangServer/settings/keys/public_key.pub",
   "JWTExpirationDelta": 72
 }

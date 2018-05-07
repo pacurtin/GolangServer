@@ -53,7 +53,3 @@ func Get() Settings {
 	}
 	return settings
 }
-
-func IsTestEnvironment() bool {
-	return env == "tests"
-}

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"api.jwt.auth/routers"
-	"api.jwt.auth/settings"
+	"github.com/pacurtin/GolangServer/routers"
+	"github.com/pacurtin/GolangServer/settings"
 	"github.com/codegangsta/negroni"
 	"net/http"
 )

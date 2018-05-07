@@ -1,18 +1,17 @@
 package authentication
 
 import (
-	"api.jwt.auth/core/redis"
-	"api.jwt.auth/services/models"
-	"api.jwt.auth/settings"
-	"bufio"
+	"github.com/pacurtin/GolangServer/services/models"
+	"github.com/pacurtin/GolangServer/settings"
 	"github.com/pborman/uuid"
 	"crypto/rsa"
-	"crypto/x509"
-	"encoding/pem"
-	jwt "github.com/dgrijalva/jwt-go"
+	"github.com/dgrijalva/jwt-go"
 	"golang.org/x/crypto/bcrypt"
-	"os"
 	"time"
+	"os"
+	"bufio"
+	"encoding/pem"
+	"crypto/x509"
 )
 
 type JWTAuthenticationBackend struct {
@@ -65,6 +64,7 @@ func (backend *JWTAuthenticationBackend) Authenticate(user *models.User) bool {
 	return user.Username == testUser.Username && bcrypt.CompareHashAndPassword([]byte(testUser.Password), []byte(user.Password)) == nil
 }
 
+// TODO set validity to unlimited time
 func (backend *JWTAuthenticationBackend) getTokenRemainingValidity(timestamp interface{}) int {
 	if validity, ok := timestamp.(float64); ok {
 		tm := time.Unix(int64(validity), 0)
@@ -74,22 +74,6 @@ func (backend *JWTAuthenticationBackend) getTokenRemainingValidity(timestamp int
 		}
 	}
 	return expireOffset
-}
-
-func (backend *JWTAuthenticationBackend) Logout(tokenString string, token *jwt.Token) error {
-	redisConn := redis.Connect()
-	return redisConn.SetValue(tokenString, tokenString, backend.getTokenRemainingValidity(token.Claims.(jwt.MapClaims)["exp"]))
-}
-
-func (backend *JWTAuthenticationBackend) IsInBlacklist(token string) bool {
-	redisConn := redis.Connect()
-	redisToken, _ := redisConn.GetValue(token)
-
-	if redisToken == nil {
-		return false
-	}
-
-	return true
 }
 
 func getPrivateKey() *rsa.PrivateKey {
