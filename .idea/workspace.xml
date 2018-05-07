@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7665128-3a94-40f9-b2ed-6cd61dce5ffc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/GolangServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vagrantfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/auth_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth_controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/authentication/jwt_backend.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/authentication/jwt_backend.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/authentication/middlewares.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/authentication/middlewares.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/redis/redis_cli.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/playbook.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/base/tasks/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/golang/files/go-bin.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/golang/files/go-path.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/golang/tasks/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/golang/vars/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/postgresql/handlers/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/postgresql/tasks/extensions_common.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/postgresql/tasks/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/postgresql/tasks/postgis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/postgresql/tasks/recreate_cluster.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/postgresql/templates/master.conf.j2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/postgresql/templates/pg_hba.conf.j2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/postgresql/vars/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/redis/tasks/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/redis/templates/redis-local.j2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/redis/templates/redis.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/redis/templates/redis.local.conf.j2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/redis/templates/redis.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/redis/templates/upstart.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/roles/redis/vars/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/vars.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/authentication.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/authentication.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/auth_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth_service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings/pre.json" beforeDir="false" afterPath="$PROJECT_DIR$/settings/pre.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings/prod.json" beforeDir="false" afterPath="$PROJECT_DIR$/settings/prod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings/settings.go" beforeDir="false" afterPath="$PROJECT_DIR$/settings/settings.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings/tests.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/api_tests/auth_middleware_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit_tests/auth_backend_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit_tests/auth_services_test.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,11 +19,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="authentication.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="authentication.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routers/authentication.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -82,8 +40,8 @@
       <file leaf-file-name="auth_service.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/auth_service.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="66">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding>
                 <element signature="e#18#298#0" expanded="true" />
               </folding>
@@ -109,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth_controller.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="auth_controller.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/auth_controller.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="130">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding>
                 <element signature="e#21#157#0" expanded="true" />
               </folding>
@@ -142,8 +100,8 @@
       <file leaf-file-name="server.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="92">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -179,6 +137,7 @@
         <option value="$PROJECT_DIR$/routers/authentication.go" />
         <option value="$PROJECT_DIR$/core/authentication/jwt_backend.go" />
         <option value="$PROJECT_DIR$/settings/settings.go" />
+        <option value="$PROJECT_DIR$/server.go" />
       </list>
     </option>
   </component>
@@ -228,13 +187,8 @@
             <path>
               <item name="GolangServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="GolangServer" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GolangServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GolangServer" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-              <item name="keys" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GolangServer" type="b2602c69:ProjectViewProjectNode" />
@@ -283,6 +237,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="814" height="867" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.265252" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -486,13 +441,6 @@
     <entry file="file://$PROJECT_DIR$/api/parameters/auth.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/models/users.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings/pre.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -523,22 +471,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="92">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/authentication.go">
+    <entry file="file://$PROJECT_DIR$/services/models/users.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        <state relative-caret-position="34">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/auth_service.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="66">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
             <element signature="e#18#298#0" expanded="true" />
           </folding>
@@ -547,11 +495,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/auth_controller.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="130">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding>
             <element signature="e#21#157#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/authentication.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
