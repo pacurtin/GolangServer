@@ -16,6 +16,7 @@ var environments = map[string]string{
 type Settings struct {
 	PrivateKeyPath     string
 	PublicKeyPath      string
+	DataSourceName		string
 	JWTExpirationDelta int
 }
 

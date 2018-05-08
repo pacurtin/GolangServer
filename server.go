@@ -5,14 +5,12 @@ import (
 	"github.com/pacurtin/GolangServer/settings"
 	"github.com/codegangsta/negroni"
 	"net/http"
-	"database/sql"
+	"github.com/pacurtin/GolangServer/services"
 )
 
 func main() {
 	settings.Init()
-
-	// TODO move this to its own service(?)
-	db, err := sql.Open("mysql", "user:password@/dbname")
+	services.InitDB()
 
 	router := routers.InitRoutes()
 	n := negroni.Classic()

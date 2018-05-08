@@ -12,7 +12,7 @@ func Login(requestUser *models.User) (int, []byte) {
 	authBackend := authentication.InitJWTAuthenticationBackend()
 
 	if authBackend.Authenticate(requestUser) {
-		token, err := authBackend.GenerateToken(requestUser.UUID)
+		token, err := authBackend.GenerateToken(requestUser.ID)
 		if err != nil {
 			return http.StatusInternalServerError, []byte("")
 		} else {

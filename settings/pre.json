@@ -1,5 +1,6 @@
 {
   "PrivateKeyPath": "/Users/padraig/go/src/github.com/pacurtin/GolangServer/settings/keys/private_key",
   "PublicKeyPath": "/Users/padraig/go/src/github.com/pacurtin/GolangServer/settings/keys/public_key.pub",
+  "DataSourceName": "root:password@tcp(192.168.99.100:3306)/OurStoryDb",
   "JWTExpirationDelta": 72
 }

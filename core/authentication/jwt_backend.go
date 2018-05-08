@@ -56,7 +56,7 @@ func (backend *JWTAuthenticationBackend) Authenticate(user *models.User) bool {
 	hashedPassword, _ := bcrypt.GenerateFromPassword([]byte("testing"), 10)
 
 	testUser := models.User{
-		UUID:     uuid.New(),
+		ID:     uuid.New(),
 		Username: "haku",
 		Password: string(hashedPassword),
 	}
